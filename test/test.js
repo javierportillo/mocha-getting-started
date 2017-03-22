@@ -7,6 +7,9 @@ describe('Array', function () {
             assert.equal([1, 2, 3].indexOf(4), -1);
             [1, 2, 3].indexOf(0).should.equal(-1);
         });
+
+        // Pending test should be written eventually
+        // it('should return the index of an element in an array');
     });
 });
 
