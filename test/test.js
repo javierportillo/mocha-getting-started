@@ -9,9 +9,12 @@ describe('Array', function () {
 
 
 describe('Async code', function () {
-    it('should call the callback function to declare the test as finished', function (done) {
-        setTimeout(function () {
-            done();
-        }, 100);
+    describe('callbacks', function () {
+        it('should call the done function to declare the test as finished', function (done) {
+            setTimeout(function () {
+                done();
+            }, 25);
+        })
+    });
     });
 });
