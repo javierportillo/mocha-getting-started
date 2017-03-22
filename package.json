@@ -1,0 +1,22 @@
+{
+  "name": "mocha-getting-started",
+  "version": "0.0.0",
+  "description": "Learning Mocha by following the documentation guides",
+  "main": "src/learningmocha.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javierportillo/mocha-getting-started.git"
+  },
+  "keywords": [
+    "mocha"
+  ],
+  "author": "Javier Portillo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/javierportillo/mocha-getting-started/issues"
+  },
+  "homepage": "https://github.com/javierportillo/mocha-getting-started#readme"
+}
