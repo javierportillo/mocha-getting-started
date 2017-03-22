@@ -16,5 +16,13 @@ describe('Async code', function () {
             }, 25);
         })
     });
+
+    describe('promises', function () {
+        it('should return a promise to declare the test as finished', function () {
+            return new Promise(function (resolve) {
+                assert.ok(true);
+                resolve();
+            });
+        });
     });
 });
